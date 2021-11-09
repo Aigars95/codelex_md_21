@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import "./libs/reset.scss";
+body {
+  margin: 0;
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+input::placeholder{
+  font-family: 'Kaushan Script', cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

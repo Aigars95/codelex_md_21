@@ -1,0 +1,24 @@
+.store__container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #eeeeee;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.card-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+
+}

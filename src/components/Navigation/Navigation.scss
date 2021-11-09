@@ -1,0 +1,13 @@
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 10px 150px 10px 20px;
+}
+
+.navbar__info{
+  display: inline-flex;
+  gap: 100px;
+}
