@@ -12,7 +12,13 @@ const Navigation = ({ itemCountAndPrice }:NavigationProps) => (
   <nav className="navbar">
     <Logo srcLogo="https://js-beginners.github.io/filter-project/img/logo.svg" />
     <div>
-      {buttonNavData.map((button) => <Button className="button button__nav" key={button.name} buttonName={button.name} />)}
+      {buttonNavData.map((button) => (
+        <Button
+          className="button button__nav"
+          key={button.name}
+          buttonName={button.name}
+        />
+      ))}
 
     </div>
     <div className="navbar__info">
